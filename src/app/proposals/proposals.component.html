@@ -1,0 +1,7 @@
+<app-profile-row ></app-profile-row>
+
+<div class="margin-bottom-16">
+    <b>Helden Vorschlage</b>
+</div>
+
+<app-profile-row *ngFor="let i of [1,2,3,4]" [name]="names[i]" [img]="images[i]" [description]="texts[i]"></app-profile-row>
