@@ -1,0 +1,11 @@
+<div class="standard-card padding-16 herorow">
+
+    <div *ngIf="hs.names.length === 0">
+    Du hast keine helden
+    </div>
+
+    <div class="hero" *ngFor="let name of hs.names; let i = index">
+        <img src="{{hs.images[i]}}"> <br>
+        {{name}}
+    </div>
+</div>

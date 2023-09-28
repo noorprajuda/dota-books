@@ -1,9 +1,6 @@
 .card {
     min-height: 400px;
-    width: 400px;
-    background-color: white;
-    border: 1px solid rgba(0,0,0,0.3);
-    border-radius: 4px;
+    height: 450px;
     overflow: hidden;
     position: relative;
 
@@ -16,6 +13,14 @@
         padding-right: 16px;
         color: rgba(0,0,0,0.8);
         font-size: 18px;
+        white-space: pre;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .statsdescription{
+        font-size: 12px;
     }
 
     button {
@@ -40,5 +45,16 @@
         &:hover{
             background-color: rgba(0,0,0,0.05);
         }
+
+        mat-icon {
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./heroes-card.component.scss']
 })
 export class HeroesCardComponent {
-@Input() text:string = '';
-@Input() img:string = '';
+  @Input() name:string = '';
+  @Input() text:string = '';
+  @Input() img:string = '';
 }

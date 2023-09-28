@@ -1,0 +1,30 @@
+.herorow {
+    display: flex;
+    color: rgba(0,0,0,0.8);
+}
+
+.hero {
+    img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        // padding: auto;
+
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        // width: 50%;
+          
+    }
+
+    font-size: 12px;
+    text-align: center;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    // justify-content: center;
+}

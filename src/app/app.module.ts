@@ -7,6 +7,10 @@ import { HeaderComponent } from './header/header.component';
 import { HeroesCardComponent } from './heroes-card/heroes-card.component';
 import { ProposalsComponent } from './proposals/proposals.component';
 import { ProfileRowComponent } from './profile-row/profile-row.component';
+import { HeroboxComponent } from './herobox/herobox.component';
+
+import {MatIconModule} from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,11 +18,14 @@ import { ProfileRowComponent } from './profile-row/profile-row.component';
     HeaderComponent,
     HeroesCardComponent,
     ProposalsComponent,
-    ProfileRowComponent
+    ProfileRowComponent,
+    HeroboxComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
